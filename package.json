@@ -27,6 +27,8 @@
   },
   "homepage": "https://github.com/csrgxtu/GoogleService-NodeJs",
   "dependencies": {
-    "express": "4.11.2"
+    "express": "4.11.2",
+    "request": "2.53.0",
+    "cheerio": "*"
   }
 }
