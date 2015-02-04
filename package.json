@@ -1,0 +1,32 @@
+{
+  "name": "GoogleService-NodeJs",
+  "version": "0.0.1",
+  "description": "Google Search Service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/csrgxtu/GoogleService-NodeJs.git"
+  },
+  "keywords": [
+    "['Google",
+    "Search",
+    "Service'",
+    "'Google'",
+    "'Google",
+    "Search'",
+    "'Google",
+    "NodeJs']"
+  ],
+  "author": "{\"name\": \"Archer Reilly\", \"email\": \"csrgxtu0@gmail.com\", \"url\": \"http://csrgxtu.github.com\"}",
+  "license": "{\"license\": \"GPL-3.0\"}",
+  "bugs": {
+    "url": "https://github.com/csrgxtu/GoogleService-NodeJs/issues"
+  },
+  "homepage": "https://github.com/csrgxtu/GoogleService-NodeJs",
+  "dependencies": {
+    "express": "4.11.2"
+  }
+}
