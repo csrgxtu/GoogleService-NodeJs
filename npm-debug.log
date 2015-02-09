@@ -1,0 +1,62 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/archer/bin/node-v0.10.35-linux-x64/bin/node',
+1 verbose cli   '/home/archer/bin/node-v0.10.35-linux-x64/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'xpath' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ 'xpath', null ]
+6 verbose cache add name=undefined spec="xpath" args=["xpath",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'xpath',
+7 verbose parsed url   path: 'xpath',
+7 verbose parsed url   href: 'xpath' }
+8 silly lockFile 7cfb6e03-xpath xpath
+9 verbose lock xpath /home/archer/.npm/7cfb6e03-xpath.lock
+10 silly lockFile 7cfb6e03-xpath xpath
+11 silly lockFile 7cfb6e03-xpath xpath
+12 verbose addNamed [ 'xpath', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile c8908c35-xpath xpath@
+15 verbose lock xpath@ /home/archer/.npm/c8908c35-xpath.lock
+16 silly addNameRange { name: 'xpath', range: '*', hasData: false }
+17 verbose request where is /xpath
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id b6453469aa5854d8
+20 verbose url raw /xpath
+21 verbose url resolving [ 'https://registry.npmjs.org/', './xpath' ]
+22 verbose url resolved https://registry.npmjs.org/xpath
+23 verbose request where is https://registry.npmjs.org/xpath
+24 info trying registry request attempt 1 at 21:00:57
+25 http GET https://registry.npmjs.org/xpath
+26 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=Parse Error
+27 info trying registry request attempt 2 at 21:01:07
+28 http GET https://registry.npmjs.org/xpath
+29 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=Parse Error
+30 info trying registry request attempt 3 at 21:02:07
+31 http GET https://registry.npmjs.org/xpath
+32 silly lockFile c8908c35-xpath xpath@
+33 silly lockFile c8908c35-xpath xpath@
+34 error network tunneling socket could not be established, cause=Parse Error
+34 error network This is most likely not a problem with npm itself
+34 error network and is related to network connectivity.
+34 error network In most cases you are behind a proxy or have bad network settings.
+34 error network
+34 error network If you are behind a proxy, please make sure that the
+34 error network 'proxy' config is set properly.  See: 'npm help config'
+35 error System Linux 3.13.0-44-generic
+36 error command "/home/archer/bin/node-v0.10.35-linux-x64/bin/node" "/home/archer/bin/node-v0.10.35-linux-x64/bin/npm" "install" "xpath"
+37 error cwd /home/archer/Documents/GoogleService-NodeJs
+38 error node -v v0.10.35
+39 error npm -v 1.4.28
+40 error code ECONNRESET
+41 verbose exit [ 1, true ]

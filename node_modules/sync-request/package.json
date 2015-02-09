@@ -1,0 +1,58 @@
+{
+  "name": "sync-request",
+  "version": "2.0.0",
+  "description": "Make synchronous web requests",
+  "browser": "./browser.js",
+  "keywords": [
+    "request",
+    "http",
+    "https",
+    "cache",
+    "browserify",
+    "synchronous",
+    "sync"
+  ],
+  "dependencies": {
+    "concat-stream": "^1.4.7",
+    "http-response-object": "^1.0.1",
+    "spawn-sync": "^1.0.1",
+    "then-request": "^2.0.1"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ForbesLindesay/sync-request.git"
+  },
+  "author": {
+    "name": "ForbesLindesay"
+  },
+  "license": "MIT",
+  "gitHead": "04d53960f49d8bea5f6e6e35ec918cb35b6804c5",
+  "bugs": {
+    "url": "https://github.com/ForbesLindesay/sync-request/issues"
+  },
+  "homepage": "https://github.com/ForbesLindesay/sync-request",
+  "_id": "sync-request@2.0.0",
+  "_shasum": "3788623d5d869fd8fa446e70cf7177f55ddb56e5",
+  "_from": "sync-request@",
+  "_npmVersion": "1.5.0-alpha-4",
+  "_npmUser": {
+    "name": "forbeslindesay",
+    "email": "forbes@lindesay.co.uk"
+  },
+  "maintainers": [
+    {
+      "name": "forbeslindesay",
+      "email": "forbes@lindeay.co.uk"
+    }
+  ],
+  "dist": {
+    "shasum": "3788623d5d869fd8fa446e70cf7177f55ddb56e5",
+    "tarball": "http://registry.npmjs.org/sync-request/-/sync-request-2.0.0.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/sync-request/-/sync-request-2.0.0.tgz",
+  "readme": "ERROR: No README data found!"
+}

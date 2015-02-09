@@ -1,0 +1,59 @@
+{
+  "name": "http-basic",
+  "version": "2.3.0",
+  "description": "Very low level wrapper arround http.request/https.request",
+  "keywords": [
+    "http",
+    "https",
+    "request",
+    "fetch",
+    "gzip",
+    "deflate",
+    "redirect",
+    "cache",
+    "etag",
+    "cache-control"
+  ],
+  "dependencies": {
+    "http-response-object": "^1.0.0",
+    "concat-stream": "^1.4.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ForbesLindesay/http-basic.git"
+  },
+  "author": {
+    "name": "ForbesLindesay"
+  },
+  "license": "MIT",
+  "gitHead": "35e5e04a4442adace9dd3480371e821c27f46ffd",
+  "bugs": {
+    "url": "https://github.com/ForbesLindesay/http-basic/issues"
+  },
+  "homepage": "https://github.com/ForbesLindesay/http-basic",
+  "_id": "http-basic@2.3.0",
+  "_shasum": "140c3ea79501f868c8b5f81ff6949346bff06f1b",
+  "_from": "http-basic@^2.0.0",
+  "_npmVersion": "1.5.0-alpha-4",
+  "_npmUser": {
+    "name": "forbeslindesay",
+    "email": "forbes@lindesay.co.uk"
+  },
+  "maintainers": [
+    {
+      "name": "forbeslindesay",
+      "email": "forbes@lindeay.co.uk"
+    }
+  ],
+  "dist": {
+    "shasum": "140c3ea79501f868c8b5f81ff6949346bff06f1b",
+    "tarball": "http://registry.npmjs.org/http-basic/-/http-basic-2.3.0.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/http-basic/-/http-basic-2.3.0.tgz",
+  "readme": "ERROR: No README data found!"
+}
