@@ -13,7 +13,7 @@ var app = express();
 
 // url routers
 app.get('/', UrlRouterCallBacks.indexPage);
-app.get('/search', UrlRouterCallBacks.resultPage);
-app.get('/query', UrlRouterCallBacks.queryHandler);
+app.get('/result', UrlRouterCallBacks.resultPage);
+app.get('/search', UrlRouterCallBacks.searchHandler);
 
 app.listen(3000);
