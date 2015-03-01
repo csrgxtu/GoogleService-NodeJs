@@ -27,3 +27,11 @@ http://localhost:3000/search?q=gnome
 ```
 here is the search result
 <center>![](./statics/images/GoogleSearchResultJson.png)</center>
+
+## What to do next?
+I am a programmer, good at back end, for UI, I implemented one, check out [csrgxtu search](http://www.csrgxtu.com/). next time, if I got time, I will implement the UI for this Project. and also, implement the project in other programming languages.
+
+## Why I start this project?
+I use Google Search a lot, and since 2014/7, Google service is blocked in China. and for work reasons I kept learning new Programming languages, to get myself familiar with these languages, I start this project.
+
+If you have a Virtual Host in foreigh countries, then you can deploy this project on your own server and enable others users use your Google Service.
