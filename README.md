@@ -25,4 +25,4 @@ result page haven't implemented yet!
 ```bash
 http://localhost:3000/search?q=gnome
 ```
-<center>![./static/images/GoogleSearchResultJson.jpg]()</center>
+<center>![](./static/images/GoogleSearchResultJson.jpg)</center>
