@@ -12,8 +12,16 @@ var UrlRouterCallBacks = require('./lib/UrlRouterCallBacks');
 var app = express();
 
 // url routers
-app.get('/', UrlRouterCallBacks.indexPage);
-app.get('/result', UrlRouterCallBacks.resultPage);
-app.get('/search', UrlRouterCallBacks.searchHandler);
+//app.get('/', UrlRouterCallBacks.indexPage);
+//app.get('/result', UrlRouterCallBacks.resultPage);
+//app.get('/search', UrlRouterCallBacks.searchHandler);
+
+// url routers
+app.get('/index.html', UrlRouterCallBacks.indexPage);
+app.post('/index.html', UrlRouterCallBacks.indexPage);
+app.get('/result.html', UrlRouterCallBacks.resultPage);
+app.post('/result.html', UrlRouterCallBacks.resultPage);
+app.get('/search.json', UrlRouterCallBacks.searchHandler);
+app.post('/search.json', UrlRouterCallBacks.searchHandler);
 
 app.listen(3000);
